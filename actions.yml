@@ -8,12 +8,12 @@ actions:
       disable_action: False
     filters:
       - filtertype: age
-      source: name
-      direction: older
-      timestring: '%Y.%m.%d'
-      unit: days
-      unit_count: ${OLDER_THAN_IN_DAYS}
-      field:
-      stats_result:
-      epoch:
-      exclude: False
+        source: name
+        direction: older
+        timestring: '%Y.%m.%d'
+        unit: days
+        unit_count: ${OLDER_THAN_IN_DAYS}
+        field:
+        stats_result:
+        epoch:
+        exclude: False
