@@ -11,4 +11,3 @@ where **es1** is the name of the elasticsearch container and
 * **INTERVAL\_IN\_HOURS**: The amount of time between two curator runs
 * **OLDER\_THAN\_IN\_DAYS**: Indicates all logs with a date exceeding this age can be deleted.
 
--
